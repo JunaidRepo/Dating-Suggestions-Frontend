@@ -55,7 +55,7 @@ function Update({ obj, back,msg }) {
                     Age:<input type="number" value={data.age} name="age" onChange={changeAge} placeholder="Enter the Age" required />
 
                     </div>
-                    Gender  <select value={data.gender} onChange={changeSome} name="gender" required>
+                    Gender  <select value={data.gender} onChange={changeSome} name="gender" className="bg-black" required>
                         <option value="Male" >Male</option>
                         <option value="Female">Female</option>
                     </select>

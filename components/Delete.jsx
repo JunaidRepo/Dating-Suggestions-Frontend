@@ -18,7 +18,7 @@ function Delete({ obj, back, msg }) {
     return (
         <>
             <div className="flex flex-col items-center p-7 fixed bg-black top-0 h-[100vh] w-[100vw] justify-center gap-10">
-                <div className="">
+                <div>
                     <h1>would you like to Delete</h1>
 
                 </div>
