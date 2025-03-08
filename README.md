@@ -4,13 +4,13 @@ This is the frontend for the Dating Suggestions application, built using React. 
 
 Features
 
-View All Suggestions: Displays a list of dating suggestions fetched from the backend.
+Displays all the users fetched from the backend.
 
-Add Suggestions: Users can add new ideas with relevant details.
+we can add new users
 
-Update Suggestions: Modify existing dating ideas as needed.
+update exesting user details
 
-Delete Suggestions: Remove outdated or unwanted suggestions.
+delete the user
 
 Responsive Design: Ensures optimal experience across devices.
 
