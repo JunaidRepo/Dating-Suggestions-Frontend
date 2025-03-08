@@ -4,17 +4,15 @@ This is the frontend for the Dating Suggestions application, built using React. 
 
 Features
 
-🏠 Home Page – Displays a list of dating suggestions.
+View All Suggestions: Displays a list of dating suggestions fetched from the backend.
 
-🔍 Search & Filter – Allows users to filter suggestions based on preferences.
+Add Suggestions: Users can add new ideas with relevant details.
 
-📝 Update Profile – Users can update their name, age, gender, and interests.
+Update Suggestions: Modify existing dating ideas as needed.
 
-➕ Add New Suggestions – Functionality to add new suggestions.
+Delete Suggestions: Remove outdated or unwanted suggestions.
 
-❌ Delete Suggestions – Users can remove unwanted suggestions.
-
-🔄 Dynamic UI Updates – State management ensures smooth interaction without refreshing the page.
+Responsive Design: Ensures optimal experience across devices.
 
 Technologies Used
 
@@ -53,20 +51,21 @@ API Endpoints
 
 This frontend communicates with the Spring Boot backend using the following API endpoints:
 
-GET /suggestions – Fetch all dating suggestions.
+GET /getAll – Fetch all user details.
 
-POST /suggestions – Add a new suggestion.
+GET/ match - to find the bast match
+
+POST / – Add a new user details.
 
 PUT /update – Update user details.
 
-DELETE /delete/{id} – Remove a suggestion.
+DELETE /delete/{id} – Remove user details.
 
 Folder Structure
 
 Dating-Suggestions-Frontend/
 │-- src/
 │   │-- components/   # Reusable UI components
-│   │-- pages/        # Main pages like Home, Profile
 │   │-- services/     # API calls using Axios
 │   │-- App.js        # Main app component
 │   │-- index.js      # Entry point
