@@ -1,6 +1,6 @@
 Dating Suggestions (Frontend)
 
-This is the frontend for the Dating Suggestions application, built using React. It provides a user-friendly interface to interact with the backend services, allowing users to explore, filter, and manage dating suggestions effectively.
+This is the frontend for the Dating Suggestions application, built using React. It provides a user-friendly interface to interact with the backend services.
 
 Features
 
@@ -12,7 +12,8 @@ update exesting user details
 
 delete the user
 
-Responsive Design: Ensures optimal experience across devices.
+match helps to find perfect match based on age and preference
+
 
 Technologies Used
 
