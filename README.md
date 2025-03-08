@@ -1,12 +1,79 @@
-# React + Vite
+Dating Suggestions (Frontend)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the frontend for the Dating Suggestions application, built using React. It provides a user-friendly interface to interact with the backend services, allowing users to explore, filter, and manage dating suggestions effectively.
 
-Currently, two official plugins are available:
+Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🏠 Home Page – Displays a list of dating suggestions.
 
-## Expanding the ESLint configuration
+🔍 Search & Filter – Allows users to filter suggestions based on preferences.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📝 Update Profile – Users can update their name, age, gender, and interests.
+
+➕ Add New Suggestions – Functionality to add new suggestions.
+
+❌ Delete Suggestions – Users can remove unwanted suggestions.
+
+🔄 Dynamic UI Updates – State management ensures smooth interaction without refreshing the page.
+
+Technologies Used
+
+React (Frontend Framework)
+
+Axios (For API Requests)
+
+Tailwind CSS (For Styling)
+
+React Hooks (useState, useEffect for state management)
+
+Installation & Setup
+
+Prerequisites
+
+Ensure you have Node.js and npm installed.
+
+Steps to Run the Project
+
+Clone the Repository
+
+git clone https://github.com/your-repo-link.git
+cd Dating-Suggestions-Frontend
+
+Install Dependencies
+
+npm install
+
+Start the Development Server
+
+npm run dev
+
+Open http://localhost:5173/ in your browser.
+
+API Endpoints
+
+This frontend communicates with the Spring Boot backend using the following API endpoints:
+
+GET /suggestions – Fetch all dating suggestions.
+
+POST /suggestions – Add a new suggestion.
+
+PUT /update – Update user details.
+
+DELETE /delete/{id} – Remove a suggestion.
+
+Folder Structure
+
+Dating-Suggestions-Frontend/
+│-- src/
+│   │-- components/   # Reusable UI components
+│   │-- pages/        # Main pages like Home, Profile
+│   │-- services/     # API calls using Axios
+│   │-- App.js        # Main app component
+│   │-- index.js      # Entry point
+│-- public/
+│-- package.json     # Dependencies and scripts
+│-- tailwind.config.js # Tailwind setup
+
+
+API Not Responding: Ensure the backend is running at http://localhost:8080.
+
