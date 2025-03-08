@@ -24,29 +24,6 @@ Tailwind CSS (For Styling)
 
 React Hooks (useState, useEffect for state management)
 
-Installation & Setup
-
-Prerequisites
-
-Ensure you have Node.js and npm installed.
-
-Steps to Run the Project
-
-Clone the Repository
-
-git clone https://github.com/your-repo-link.git
-cd Dating-Suggestions-Frontend
-
-Install Dependencies
-
-npm install
-
-Start the Development Server
-
-npm run dev
-
-Open http://localhost:5173/ in your browser.
-
 API Endpoints
 
 This frontend communicates with the Spring Boot backend using the following API endpoints:
